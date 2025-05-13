@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Input from "../components/Input";
+import Input from "../components/InputForm";
 import Button from "../components/Button";
 import axios from "axios";
 import AuthLayout from "../components/AuthLayout";
@@ -10,6 +10,7 @@ const RegisterPage = () => {
   const [password, setPassword] = useState("");
   const [success, setSuccess] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
   const handleEmail = (e) => {
@@ -21,6 +22,7 @@ const RegisterPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     const payload = {
       email: email,
@@ -45,6 +47,8 @@ const RegisterPage = () => {
     } catch (error) {
       setError("Register failed", error.response.data);
       setSuccess("");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -73,7 +77,7 @@ const RegisterPage = () => {
           onchange={handlePassword}
         />
         <Button variant="primary" onclick={handleSubmit}>
-          Register
+          {loading ? "Loading..." : "Register"}
         </Button>
       </form>
     </AuthLayout>
