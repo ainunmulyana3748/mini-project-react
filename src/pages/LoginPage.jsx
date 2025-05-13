@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Input from "../components/Input";
+import Input from "../components/InputForm";
 import Button from "../components/Button";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import AuthLayout from "../components/AuthLayout";
 
 const LoginPage = () => {
@@ -10,6 +10,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState("");
   const [success, setSuccess] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
   const handleEmail = (e) => {
@@ -21,6 +22,7 @@ const LoginPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     const payload = {
       email: email,
@@ -49,6 +51,8 @@ const LoginPage = () => {
     } catch (error) {
       setError(error.response.data.error);
       setSuccess("");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -77,7 +81,7 @@ const LoginPage = () => {
           onchange={handlePassword}
         />
         <Button variant="primary" onclick={handleSubmit}>
-          Login
+          {loading ? "Loading..." : "Login"}
         </Button>
       </form>
     </AuthLayout>
