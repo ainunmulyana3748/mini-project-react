@@ -2,19 +2,22 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
-import HomePage from "./pages/HomePage";
+import TourGuidePage from "./pages/TourGuidePage";
 import ProtectedRoute from "./components/ProtectedRoute";
 import UserDetailPage from "./pages/UserDetailPage";
+import HomePage from "./pages/HomePage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route
-          path="/"
+          path="/tour-guide"
           element={
             <ProtectedRoute>
-              <HomePage />
+              <TourGuidePage />
             </ProtectedRoute>
           }
         />
@@ -28,6 +31,7 @@ const App = () => {
             </ProtectedRoute>
           }
         />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   );

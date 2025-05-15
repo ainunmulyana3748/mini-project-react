@@ -1,6 +1,6 @@
-// components/AuthLayout.jsx
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 
 const AuthLayout = ({
   title,
@@ -10,14 +10,19 @@ const AuthLayout = ({
   footerLink,
   footerLinkText,
 }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="p-6 rounded-xl w-96 space-y-4 shadow-lg">
+      <div className="p-6 rounded-xl w-96 space-y-4 shadow-lg bg-white">
+        <ArrowLeft
+          size={16}
+          className="mr-2 cursor-pointer"
+          onClick={() => navigate(-1)}
+        />
         <h1 className="text-2xl font-semibold">{title}</h1>
         <p className="text-sm text-zinc-400">{description}</p>
-
         {children}
-
         {footerText && footerLink && (
           <p className="text-center text-sm text-zinc-400">
             {footerText}{" "}

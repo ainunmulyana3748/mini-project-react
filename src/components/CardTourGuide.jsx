@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const CardUser = ({ user }) => {
+const CardTourGuide = ({ user }) => {
   const { id, avatar, email, first_name, last_name } = user;
 
   return (
@@ -24,4 +24,4 @@ const CardUser = ({ user }) => {
   );
 };
 
-export default CardUser;
+export default CardTourGuide;
