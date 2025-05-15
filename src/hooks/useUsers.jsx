@@ -1,8 +1,8 @@
 import axios from "axios";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const useUsers = () => {
-  const [users, setUsers] = useState();
+  const [users, setUsers] = useState([]);
   const [totalPages, setTotalPages] = useState(null);
   const [counter, setCounter] = useState(1);
 
@@ -24,6 +24,7 @@ export const useUsers = () => {
       console.log(error);
     }
   };
+
   return {
     users,
     totalPages,

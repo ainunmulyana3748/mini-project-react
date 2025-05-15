@@ -1,67 +1,32 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import CardUser from "../components/CardUser";
-import LoadingSpinner from "../components/LoadingSpinner";
-import Navbar from "../components/Navbar";
-import Pagination from "../components/Pagination";
-import SearchInput from "../components/SearchInput";
+import React, { useEffect } from "react";
 import { useUsers } from "../hooks/useUsers";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import HeroSection from "../components/HeroSection";
+import Destination from "../components/Destination";
+import CarouselCard from "../components/CarouselCard";
 
 const HomePage = () => {
-  const { users, totalPages, getListUsers, counter, setCounter } = useUsers();
-  const [searchItem, setSearchItem] = useState("");
-
-  const filteredData = users?.filter(
-    (item) =>
-      item.first_name.toLowerCase().includes(searchItem.toLowerCase()) ||
-      item.last_name.toLowerCase().includes(searchItem.toLowerCase()) ||
-      item.email.toLowerCase().includes(searchItem.toLowerCase())
-  );
+  const { users, getListUsers } = useUsers();
 
   useEffect(() => {
-    getListUsers(counter);
-  }, [counter]);
-
-  if (!users) {
-    return (
-      <div className="min-h-screen flex items-center justify-center text-gray-500">
-        <LoadingSpinner />
-      </div>
-    );
-  }
+    getListUsers();
+  }, []);
 
   return (
     <div>
       <Navbar />
-      <div className="min-h-screen w-full flex flex-col justify-center items-center bg-gray-50">
-        <div className="w-full flex flex-col justify-center items-center gap-10">
-          <div className="w-[50%] flex flex-col justify-center items-center mt-8">
-            <SearchInput
-              value={searchItem}
-              onChange={(e) => setSearchItem(e.target.value)}
-              placeholder="Cari user..."
-              autoFocus
-            />
-            <Pagination
-              currentPage={counter}
-              totalPages={totalPages}
-              onPageChange={setCounter}
-            />
-          </div>
-          <div className="w-[50%] grid sm:grid-cols-2 xl:grid-cols-4 gap-5">
-            {filteredData?.length > 0 ? (
-              filteredData.map((user) => <CardUser user={user} key={user.id} />)
-            ) : (
-              <p className="col-span-full text-center text-gray-500">
-                Tidak ada user yang cocok.
-              </p>
-            )}
-          </div>
+      <HeroSection />
+      <div className="py-12 bg-gray-100 text-center">
+        <div className="max-w-screen-xl mx-auto px-4">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10">
+            Maksimalkan Rencanamu, Ditemenin oleh Tour Guide Profesional
+          </h1>
+          <Destination />
+          <CarouselCard users={users} />
         </div>
       </div>
-      <br />
-      <br />
-      <br />
+      <Footer />
     </div>
   );
 };

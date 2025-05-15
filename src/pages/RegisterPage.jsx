@@ -1,56 +1,20 @@
 import React, { useState } from "react";
-import Input from "../components/InputForm";
+import InputForm from "../components/InputForm";
 import Button from "../components/Button";
-import axios from "axios";
 import AuthLayout from "../components/AuthLayout";
-import { useNavigate } from "react-router-dom";
+import { useAuth } from "../hooks/useAuth";
 
 const RegisterPage = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [success, setSuccess] = useState("");
-  const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false);
-  const navigate = useNavigate();
-
-  const handleEmail = (e) => {
-    setEmail(e.target.value);
-  };
-  const handlePassword = (e) => {
-    setPassword(e.target.value);
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-
-    const payload = {
-      email: email,
-      password: password,
-    };
-
-    const headers = {
-      "x-api-key": "reqres-free-v1",
-    };
-
-    try {
-      await axios.post("https://reqres.in/api/register", payload, {
-        headers,
-      });
-
-      setSuccess("Register success");
-      setError("");
-
-      setTimeout(() => {
-        navigate("/login");
-      }, 1500);
-    } catch (error) {
-      setError("Register failed", error.response.data);
-      setSuccess("");
-    } finally {
-      setLoading(false);
-    }
-  };
+  const {
+    handleEmail,
+    handlePassword,
+    handleSubmit,
+    success,
+    error,
+    loading,
+    email,
+    password,
+  } = useAuth();
 
   return (
     <AuthLayout
@@ -64,19 +28,23 @@ const RegisterPage = () => {
       {success && <p className="text-green-500">{success}</p>}
 
       <form className="space-y-4">
-        <Input
+        <InputForm
           label="Email"
           type="email"
           placeholder="@example.com"
           onchange={handleEmail}
         />
-        <Input
+        <InputForm
           label="Password"
           type="password"
           placeholder="Password"
           onchange={handlePassword}
         />
-        <Button variant="primary" onclick={handleSubmit}>
+        <Button
+          variant="primary"
+          onclick={handleSubmit}
+          disabled={!email || !password}
+        >
           {loading ? "Loading..." : "Register"}
         </Button>
       </form>
