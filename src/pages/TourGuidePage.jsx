@@ -32,7 +32,7 @@ const TourGuidePage = () => {
   return (
     <div>
       <Navbar />
-      <div className="min-h-screen w-full flex flex-col justify-center items-center bg-gray-50 px-6">
+      <div className="min-h-screen w-full flex flex-col justify-center items-center bg-gray-50 px-6 pt-10">
         <div className="w-full max-w-4xl mt-8 flex flex-col items-center">
           <Breadcrumb items={[{ label: "Home", href: "/" }]} />
           <SearchInput
