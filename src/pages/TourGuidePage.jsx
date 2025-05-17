@@ -47,7 +47,7 @@ const TourGuidePage = () => {
             onPageChange={setCounter}
           />
         </div>
-        <div className="w-full max-w-4xl grid sm:grid-cols-2 xl:grid-cols-4 gap-5 mt-6">
+        <div className="w-full max-w-4xl grid sm:grid-cols-2 xl:grid-cols-4 gap-5 mt-6 justify-center">
           {filteredData?.length > 0 ? (
             filteredData.map((user) => (
               <CardTourGuide user={user} key={user.id} />
