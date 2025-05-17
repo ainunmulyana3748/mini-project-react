@@ -35,6 +35,7 @@ A simple website for Tour guide travel booking web with React. This app allows u
 - 🔄 Axios v1.9.0 – Promise-based HTTP client
 - 🎨 Lucide React v0.509.0 – Beautiful and consistent icon library
 - 🎞️ Swiper v11.2.6 – Modern mobile touch slider
+- 🎬 Framer Motion – Animation library for React (smooth transitions & interactions)
 - ⚡ Vite – Fast development build tool
 
 
