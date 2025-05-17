@@ -21,7 +21,7 @@ const TourGuideDetailPage = () => {
   const handleBooking = () => {
     setShowModal(true);
     setTimeout(() => {
-      navigate("/homepage");
+      navigate("/landing-page");
     }, 2500);
   };
 
