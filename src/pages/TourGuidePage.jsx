@@ -29,18 +29,12 @@ const TourGuidePage = () => {
       </div>
     );
   }
-
   return (
     <div>
       <Navbar />
       <div className="min-h-screen w-full flex flex-col justify-center items-center bg-gray-50 px-6">
         <div className="w-full max-w-4xl mt-8 flex flex-col items-center">
-          <Breadcrumb
-            items={[
-              { label: "Home", href: "/" },
-              { label: "User Detail", href: null },
-            ]}
-          />
+          <Breadcrumb items={[{ label: "Home", href: "/" }]} />
           <SearchInput
             value={searchItem}
             onChange={(e) => setSearchItem(e.target.value)}

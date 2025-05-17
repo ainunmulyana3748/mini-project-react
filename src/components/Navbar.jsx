@@ -16,10 +16,10 @@ const Navbar = () => {
         </Link>
 
         <nav className="flex gap-6 text-sm sm:font-semibold">
-          <Link to="/" className="hover:text-gray-300">
+          <Link to="/landing-page" className="hover:text-gray-300">
             Home
           </Link>
-          <Link to="/tour-guide" className="hover:text-gray-300">
+          <Link to="/" className="hover:text-gray-300">
             Our Tour Guide
           </Link>
         </nav>

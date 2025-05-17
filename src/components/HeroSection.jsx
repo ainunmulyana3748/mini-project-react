@@ -1,7 +1,8 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <div className="relative h-screen w-full">
       <div className="absolute inset-0 bg-black/50 z-0" />
@@ -23,7 +24,9 @@ const HeroSection = () => {
           Kemanapun dan kapanpun, mau jalan-jalan dan butuh pendamping? Yuk,
           klik tombol di bawah ini dan mulai petualanganmu sekarang!
         </p>
-        <Button variant="primary">Lanjutkan</Button>
+        <Button variant="primary" onclick={() => navigate("/")}>
+          Lanjutkan
+        </Button>
       </div>
     </div>
   );

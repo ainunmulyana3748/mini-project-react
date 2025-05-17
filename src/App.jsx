@@ -4,17 +4,17 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import TourGuidePage from "./pages/TourGuidePage";
 import ProtectedRoute from "./components/ProtectedRoute";
-import UserDetailPage from "./pages/UserDetailPage";
-import HomePage from "./pages/HomePage";
+import TourGuideDetailPage from "./pages/TourGuideDetailPage";
+import HomePage from "./pages/LandingPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/landing-page" element={<HomePage />} />
         <Route
-          path="/tour-guide"
+          path="/"
           element={
             <ProtectedRoute>
               <TourGuidePage />
@@ -27,7 +27,7 @@ const App = () => {
           path="/users/:id"
           element={
             <ProtectedRoute>
-              <UserDetailPage />
+              <TourGuideDetailPage />
             </ProtectedRoute>
           }
         />

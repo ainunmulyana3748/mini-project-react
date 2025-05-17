@@ -6,8 +6,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 
 const CarouselCard = ({ users }) => {
+  const navigate = useNavigate();
   return (
     <div className="w-full py-12">
       <Swiper
@@ -36,7 +38,9 @@ const CarouselCard = ({ users }) => {
                 <p className="text-sm text-gray-500">{user.email}</p>
               </div>
               <div className="absolute inset-0 bg-blue-200 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-20 flex items-center justify-center">
-                <Button variant="primary">Order Now</Button>
+                <Button variant="primary" onclick={() => navigate("/")}>
+                  Order Now
+                </Button>
               </div>
             </div>
           </SwiperSlide>

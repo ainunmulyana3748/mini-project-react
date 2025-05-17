@@ -13,6 +13,9 @@ const Button = ({
       "bg-black text-white hover:bg-zinc-900 focus:ring-black disabled:opacity-50 cursor-pointer",
     secondary:
       "bg-white text-black border border-gray-300 hover:bg-gray-100 focus:ring-gray-400 disabled:opacity-50 cursor-pointer",
+    outline:
+      "border border-gray-300 text-gray-700 hover:bg-gray-100 cursor-pointer",
+    danger: "bg-red-500 text-white hover:bg-red-600 cursor-pointer",
   };
 
   return (
