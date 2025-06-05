@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component snapshot footer 1`] = `
+<div>
+  <footer
+    class="bg-black text-white py-8 mt-12"
+  >
+    <div
+      class="max-w-screen-xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-center md:text-left place-items-center md:place-items-start"
+    >
+      <div>
+        <h2
+          class="text-xl font-bold mb-2"
+        >
+          Ditemenin.
+        </h2>
+        <p
+          class="text-gray-400 max-w-xs"
+        >
+          Temukan tour guide profesional untuk menemanimu di berbagai destinasi seru.
+        </p>
+      </div>
+      <div>
+        <h3
+          class="font-semibold mb-2"
+        >
+          Download Ditemenin App
+        </h3>
+        <div
+          class="flex items-center md:items-start gap-4"
+        >
+          <a
+            href="#"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Get it on Google Play"
+              class="h-10"
+              src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v3/f/f519939e72eccefffb6998f1397901b7.svg"
+            />
+          </a>
+          <a
+            href="#"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Download on the App Store"
+              class="h-10"
+              src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v3/1/18339f1ae28fb0c49075916d11b98829.svg"
+            />
+          </a>
+        </div>
+      </div>
+      <div>
+        <h3
+          class="font-semibold mb-2"
+        >
+          Kontak
+        </h3>
+        <p
+          class="text-gray-400"
+        >
+          Email: support@ditemenin.com
+        </p>
+        <p
+          class="text-gray-400"
+        >
+          Instagram: @ditemenin
+        </p>
+      </div>
+    </div>
+    <div
+      class="mt-8 text-center text-gray-500 text-xs"
+    >
+      © 
+      2025
+       Ditemenin. All rights reserved.
+    </div>
+  </footer>
+</div>
+`;

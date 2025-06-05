@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmModal Component snapshot confirm modal 1`] = `
+<div>
+  <div
+    class="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50"
+  >
+    <div
+      class="bg-white rounded-2xl p-6 shadow-xl text-center w-[320px] animate-fade-in-up"
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-triangle-alert text-red-500 mx-auto mb-4"
+        fill="none"
+        height="48"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="48"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"
+        />
+        <path
+          d="M12 9v4"
+        />
+        <path
+          d="M12 17h.01"
+        />
+      </svg>
+      <h3
+        class="text-lg font-semibold text-gray-800"
+      >
+        Konfirmasi
+      </h3>
+      <p
+        class="text-sm text-gray-600 mt-1"
+      >
+        Apakah Anda yakin?
+      </p>
+      <div
+        class="mt-6 flex justify-center gap-4"
+      >
+        <button
+          class="px-4 py-2 text-sm rounded-lg bg-gray-200 hover:bg-gray-300 text-gray-700 cursor-pointer"
+        >
+          Cancel
+        </button>
+        <button
+          class="px-4 py-2 text-sm rounded-lg text-white cursor-pointer bg-red-500 hover:bg-red-600"
+        >
+          Yes, Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

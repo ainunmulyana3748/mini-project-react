@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingSpinner Component snapshot spinner 1`] = `
+<div>
+  <span
+    class="relative w-12 h-12 rounded-full border-4 border-white border-t-transparent animate-spin inline-block box-border"
+  >
+    <span
+      class="absolute inset-0 m-auto w-10 h-10 border-4 border-b-red-600 border-l-red-600 border-t-transparent border-r-transparent rounded-full animate-[spin_0.5s_linear_infinite]"
+    />
+    <span
+      class="absolute inset-0 m-auto w-8 h-8 border-4 border-white border-t-transparent border-r-transparent rounded-full animate-[spin_1.5s_linear_infinite]"
+    />
+  </span>
+</div>
+`;

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthLayout Component matches snapshot 1`] = `
+<div>
+  <div
+    class="min-h-screen flex items-center justify-center"
+  >
+    <div
+      class="p-6 rounded-xl w-96 space-y-4 shadow-lg bg-white"
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-arrow-left mr-2 cursor-pointer"
+        data-testid="back-button"
+        fill="none"
+        height="16"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m12 19-7-7 7-7"
+        />
+        <path
+          d="M19 12H5"
+        />
+      </svg>
+      <h1
+        class="text-2xl font-semibold"
+      >
+        Login
+      </h1>
+      <p
+        class="text-sm text-zinc-400"
+      >
+        Welcome back
+      </p>
+      <div>
+        Login Form
+      </div>
+      <p
+        class="text-center text-sm text-zinc-400"
+      >
+        Don't have an account? 
+        <a
+          class="text-blue-400 hover:underline"
+          data-discover="true"
+          href="/register"
+        >
+          Register here
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;

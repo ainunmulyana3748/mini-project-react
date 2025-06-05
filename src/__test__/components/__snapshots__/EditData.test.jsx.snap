@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditData Component snapshot edit data 1`] = `
+<div>
+  <div
+    class="mt-10 w-full flex items-center justify-center"
+  >
+    <div
+      class="w-full max-w-xl mx-auto bg-white rounded-3xl shadow-lg p-6 sm:p-8 mt-6 transition-all duration-300 hover:shadow-blue-100"
+    >
+      <div
+        class="flex justify-end"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-x cursor-pointer text-gray-600 hover:text-blue-600 transition"
+          fill="none"
+          height="28"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="28"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M18 6 6 18"
+          />
+          <path
+            d="m6 6 12 12"
+          />
+        </svg>
+      </div>
+      <form
+        class="space-y-4"
+      >
+        <div
+          class="space-y-1"
+        >
+          <label
+            class="block text-sm font-medium"
+            for="first-name"
+          >
+            First Name
+          </label>
+          <input
+            class="w-full px-3 py-2 border border-zinc-300 rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+            id="first-name"
+            name="first_name"
+            placeholder="John"
+            type="text"
+            value="John"
+          />
+        </div>
+        <div
+          class="space-y-1"
+        >
+          <label
+            class="block text-sm font-medium"
+            for="last-name"
+          >
+            Last Name
+          </label>
+          <input
+            class="w-full px-3 py-2 border border-zinc-300 rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+            id="last-name"
+            name="last_name"
+            placeholder="Doe"
+            type="text"
+            value="Doe"
+          />
+        </div>
+        <div
+          class="space-y-1"
+        >
+          <label
+            class="block text-sm font-medium"
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="w-full px-3 py-2 border border-zinc-300 rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+            id="email"
+            name="email"
+            placeholder="john@example.com"
+            type="email"
+            value="john@example.com"
+          />
+        </div>
+        <button
+          class="px-4 py-2 rounded font-medium bg-black text-white hover:bg-zinc-900 focus:ring-black disabled:opacity-50 cursor-pointer"
+        >
+          Edit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

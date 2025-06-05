@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 
@@ -19,13 +18,14 @@ const AuthLayout = ({
           size={16}
           className="mr-2 cursor-pointer"
           onClick={() => navigate(-1)}
+          data-testid="back-button"
         />
         <h1 className="text-2xl font-semibold">{title}</h1>
         <p className="text-sm text-zinc-400">{description}</p>
         {children}
         {footerText && footerLink && (
           <p className="text-center text-sm text-zinc-400">
-            {footerText}{" "}
+            {footerText}
             <Link to={footerLink} className="text-blue-400 hover:underline">
               {footerLinkText}
             </Link>

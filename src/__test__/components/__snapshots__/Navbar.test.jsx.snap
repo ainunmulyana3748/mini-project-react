@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component snapshot navbar 1`] = `
+<div>
+  <header
+    class="bg-black text-white w-full shadow-md z-50 fixed"
+  >
+    <div
+      class="max-w-screen-xl mx-auto px-4 py-4 flex items-center justify-between"
+    >
+      <a
+        class="text-xl font-bold text-white"
+        data-discover="true"
+        href="/"
+      >
+        Ditemenin.
+      </a>
+      <nav
+        class="hidden md:flex gap-6 text-sm sm:font-semibold"
+      >
+        <a
+          class="hover:text-gray-300"
+          data-discover="true"
+          href="/landing-page"
+        >
+          Home
+        </a>
+        <a
+          class="hover:text-gray-300"
+          data-discover="true"
+          href="/"
+        >
+          Our Tour Guide
+        </a>
+      </nav>
+      <div
+        class="hidden md:block"
+      >
+        <a
+          class="bg-green-500 hover:bg-green-600 text-white font-medium px-4 py-2 rounded transition text-sm sm:text-base"
+          data-discover="true"
+          href="/login"
+        >
+          Login
+        </a>
+      </div>
+      <button
+        class="md:hidden text-white focus:outline-none z-50"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-menu"
+          fill="none"
+          height="28"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="28"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 12h16"
+          />
+          <path
+            d="M4 18h16"
+          />
+          <path
+            d="M4 6h16"
+          />
+        </svg>
+      </button>
+    </div>
+  </header>
+</div>
+`;

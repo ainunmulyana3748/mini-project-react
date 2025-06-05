@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Component snapshot pagination 1`] = `
+<div>
+  <div
+    class="flex gap-4 justify-center mt-5"
+  >
+    <button
+      class="px-4 py-2 rounded bg-black text-white hover:bg-zinc-800 disabled:opacity-50 cursor-pointer"
+    >
+      Prev
+    </button>
+    <div
+      class="w-[50px] rounded font-bold text-center p-2 cursor-pointer bg-black text-white hover:bg-zinc-700"
+    >
+      1
+    </div>
+    <div
+      class="w-[50px] rounded font-bold text-center p-2 cursor-pointer bg-gray-500 text-white"
+    >
+      2
+    </div>
+    <div
+      class="w-[50px] rounded font-bold text-center p-2 cursor-pointer bg-black text-white hover:bg-zinc-700"
+    >
+      3
+    </div>
+    <button
+      class="px-4 py-2 rounded bg-black text-white hover:bg-zinc-800 disabled:opacity-50 cursor-pointer"
+    >
+      Next
+    </button>
+  </div>
+</div>
+`;

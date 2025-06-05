@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardUserDetail Component snapshot card user detail 1`] = `
+<div>
+  <div
+    class="w-full max-w-xl mx-auto bg-white rounded-3xl shadow-lg p-6 sm:p-8 mt-6 transition-all duration-300 hover:shadow-blue-100"
+  >
+    <svg
+      aria-hidden="true"
+      class="lucide lucide-arrow-left cursor-pointer mb-4 text-gray-600 hover:text-blue-600 transition"
+      fill="none"
+      height="28"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="28"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m12 19-7-7 7-7"
+      />
+      <path
+        d="M19 12H5"
+      />
+    </svg>
+    <div
+      class="flex flex-col sm:flex-row items-center sm:items-start gap-6"
+    >
+      <img
+        alt="Siti"
+        class="w-32 h-32 sm:w-36 sm:h-36 rounded-full border-4 border-blue-500 shadow-md object-cover"
+        src="https://example.com/avatar2.jpg"
+      />
+      <div
+        class="flex-1 text-center sm:text-left"
+      >
+        <h2
+          class="text-2xl sm:text-3xl font-bold text-gray-800"
+        >
+          Siti
+           
+          Aisyah
+        </h2>
+        <p
+          class="text-gray-500 text-sm mt-1"
+        >
+          user@mail.com
+        </p>
+        <div
+          class="flex items-center justify-center sm:justify-start gap-1 mt-3"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-star text-yellow-400 fill-yellow-400"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-star text-yellow-400 fill-yellow-400"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-star text-yellow-400 fill-yellow-400"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-star text-yellow-400 fill-yellow-400"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-star text-yellow-300"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+            />
+          </svg>
+          <span
+            class="ml-2 text-sm text-gray-600"
+          >
+            4.5
+            /5.0
+          </span>
+        </div>
+        <div
+          class="mt-5 text-sm text-gray-700 space-y-2"
+        >
+          <p>
+            <span
+              class="font-semibold"
+            >
+              Role:
+            </span>
+             Tour Guide
+          </p>
+          <p>
+            <span
+              class="font-semibold"
+            >
+              Status:
+            </span>
+             Active
+          </p>
+          <p>
+            <span
+              class="font-semibold"
+            >
+              Tour Guide Since:
+            </span>
+             2024
+          </p>
+          <p>
+            <span
+              class="font-semibold"
+            >
+              Languages:
+            </span>
+             
+            <span
+              class="inline-flex flex-wrap gap-2 mt-1"
+            >
+              <span
+                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-1 rounded-full"
+              >
+                English
+              </span>
+              <span
+                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-1 rounded-full"
+              >
+                Bahasa Indonesia
+              </span>
+              <span
+                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-1 rounded-full"
+              >
+                French
+              </span>
+            </span>
+          </p>
+        </div>
+        <div
+          class="mt-6"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

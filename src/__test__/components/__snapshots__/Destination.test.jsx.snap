@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Destination Component snapshot destination 1`] = `
+<div>
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6"
+  >
+    <div
+      class="bg-white rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl hover:scale-105 transform transition duration-300 ease-in-out"
+    >
+      <img
+        alt="Tour Jepang"
+        class="h-48 w-full object-cover"
+        src="https://akcdn.detik.net.id/visual/2019/07/03/66048cd8-30b6-42a3-9e3c-1cb5f655a720_169.jpeg?w=1200"
+      />
+      <div
+        class="p-4"
+      >
+        <h2
+          class="text-lg font-semibold text-gray-800"
+        >
+          Tour Jepang
+        </h2>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          Temukan pengalaman baru di destinasi impianmu.
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-white rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl hover:scale-105 transform transition duration-300 ease-in-out"
+    >
+      <img
+        alt="Paris Experience"
+        class="h-48 w-full object-cover"
+        src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/474000/474240-Left-Bank-Paris.jpg"
+      />
+      <div
+        class="p-4"
+      >
+        <h2
+          class="text-lg font-semibold text-gray-800"
+        >
+          Paris Experience
+        </h2>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          Temukan pengalaman baru di destinasi impianmu.
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-white rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl hover:scale-105 transform transition duration-300 ease-in-out"
+    >
+      <img
+        alt="Swiss Journey"
+        class="h-48 w-full object-cover"
+        src="https://www.cimbniaga.co.id/content/dam/cimb/inspirasi/jungfraujoch.webp"
+      />
+      <div
+        class="p-4"
+      >
+        <h2
+          class="text-lg font-semibold text-gray-800"
+        >
+          Swiss Journey
+        </h2>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          Temukan pengalaman baru di destinasi impianmu.
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-white rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl hover:scale-105 transform transition duration-300 ease-in-out"
+    >
+      <img
+        alt="Iceland Adventure"
+        class="h-48 w-full object-cover"
+        src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/a09710eeb604a66276bc74d304e6d801c14ced98/big-cb0fc75914a607f6b9065f8a5b191a09.jpg"
+      />
+      <div
+        class="p-4"
+      >
+        <h2
+          class="text-lg font-semibold text-gray-800"
+        >
+          Iceland Adventure
+        </h2>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          Temukan pengalaman baru di destinasi impianmu.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

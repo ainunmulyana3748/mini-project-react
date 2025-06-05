@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1749086764397" clover="3.2.0">
+  <project timestamp="1749086764397" name="All files">
+    <metrics statements="151" coveredstatements="130" conditionals="88" coveredconditionals="64" methods="66" coveredmethods="52" elements="305" coveredelements="246" complexity="0" loc="151" ncloc="151" packages="2" files="25" classes="25"/>
+    <package name="components">
+      <metrics statements="97" coveredstatements="86" conditionals="49" coveredconditionals="40" methods="45" coveredmethods="37"/>
+      <file name="AuthLayout.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\AuthLayout.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="Breadcrumb.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\Breadcrumb.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+      </file>
+      <file name="Button.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\Button.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="10" count="30" type="stmt"/>
+        <line num="11" count="30" type="stmt"/>
+        <line num="21" count="30" type="stmt"/>
+      </file>
+      <file name="CardTourGuide.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\CardTourGuide.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="CardUserDetail.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\CardUserDetail.jsx">
+        <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="40" count="20" type="stmt"/>
+        <line num="68" count="12" type="stmt"/>
+      </file>
+      <file name="CarouselCard.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\CarouselCard.jsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+      </file>
+      <file name="ConfirmModal.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\ConfirmModal.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="12" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="9" type="stmt"/>
+      </file>
+      <file name="Destination.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\Destination.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+      </file>
+      <file name="EditData.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\EditData.jsx">
+        <metrics statements="16" coveredstatements="16" conditionals="10" coveredconditionals="7" methods="7" coveredmethods="7"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="28" count="12" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+      </file>
+      <file name="Footer.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\Footer.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+      <file name="Hello.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\Hello.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="HeroSection.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\HeroSection.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="InputForm.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\InputForm.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="2" count="36" type="stmt"/>
+        <line num="3" count="36" type="stmt"/>
+      </file>
+      <file name="LoadingSpinner.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\LoadingSpinner.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="Navbar.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\Navbar.jsx">
+        <metrics statements="13" coveredstatements="8" conditionals="8" coveredconditionals="7" methods="8" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+      </file>
+      <file name="Pagination.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\Pagination.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+      <file name="ProtectedRoute.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\ProtectedRoute.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="SearchInput.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\SearchInput.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+      <file name="SuccessModal.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\components\SuccessModal.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages">
+      <metrics statements="54" coveredstatements="44" conditionals="39" coveredconditionals="24" methods="21" coveredmethods="15"/>
+      <file name="LandingPage.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\pages\LandingPage.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+      <file name="LoginPage.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\pages\LoginPage.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="NotFoundPage.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\pages\NotFoundPage.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="RegisterPage.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\pages\RegisterPage.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="TourGuideDetailPage.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\pages\TourGuideDetailPage.jsx">
+        <metrics statements="27" coveredstatements="19" conditionals="16" coveredconditionals="13" methods="10" coveredmethods="5"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="32" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="40" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="115" count="1" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+      </file>
+      <file name="TourGuidePage.jsx" path="D:\Web-Development\Dibimbing\TUGAS\Assignment Day 35 - Mini Project Mentoring React\src\pages\TourGuidePage.jsx">
+        <metrics statements="12" coveredstatements="10" conditionals="7" coveredconditionals="3" methods="5" coveredmethods="4"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="2"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
